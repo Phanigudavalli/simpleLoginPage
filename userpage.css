@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(6, 146, 246);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: center;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.63);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 50px;
+    width: fit-content;
+    border-radius: 10px;
+}
+#usersymbol{
+    width: 50px;
+    height: 50px;
+}
+#user{
+    text-align: center;
+}
+#loginBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
